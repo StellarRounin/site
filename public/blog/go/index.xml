@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Go on Hugo ʕ•ᴥ•ʔ Bear Blog</title>
-		<link>http://localhost:1313/blog/go/</link>
+		<link>https://example.com/blog/go/</link>
 		<description>Recent content in Go on Hugo ʕ•ᴥ•ʔ Bear Blog</description>
 		<generator>Hugo</generator>
 		<language>en-US</language>
@@ -14,19 +14,19 @@
 		
 			<lastBuildDate>Sat, 22 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/blog/go/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://example.com/blog/go/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>NoteDiscovery</title>
-				<link>http://localhost:1313/projects/project-example/</link>
+				<link>https://example.com/projects/project-example/</link>
 				<pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/projects/project-example/</guid>
+				<guid>https://example.com/projects/project-example/</guid>
 				<description>&lt;h1 id=&#34;project-name&#34;&gt;Project Name&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;NoteDiscovery is a &amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-built-it&#34;&gt;Why I built it&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;architecture&#34;&gt;Architecture&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-learned&#34;&gt;What I learned&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>NoteDiscovery</title>
-				<link>http://localhost:1313/projects/project-example2/</link>
+				<link>https://example.com/projects/project-example2/</link>
 				<pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/projects/project-example2/</guid>
+				<guid>https://example.com/projects/project-example2/</guid>
 				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;NoteDiscovery is a &amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-built-it&#34;&gt;Why I built it&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;architecture&#34;&gt;Architecture&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-learned&#34;&gt;What I learned&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s next&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;</description>
 			</item>
 	</channel>
