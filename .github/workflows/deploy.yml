@@ -6,6 +6,8 @@ on:
 
 jobs:
   deploy:
+    environment: site - tierhive
+
     runs-on: ubuntu-latest
 
     steps:
