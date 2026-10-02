@@ -7,6 +7,7 @@ on:
 jobs:
   deploy:
     environment: site - tierhive
+
     runs-on: ubuntu-latest
 
     steps:
@@ -22,23 +23,32 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Install lftp
-        run: sudo apt-get update && sudo apt-get install -y lftp
-
-      - name: Deploy
+      - name: Check secrets
         env:
           TH_USER: ${{ secrets.TH_USER }}
           TH_KEY: ${{ secrets.TH_KEY }}
         run: |
-          mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
+          if [ -n "$TH_USER" ]; then
+            echo "✅ TH_USER está disponible"
+          else
+            echo "❌ TH_USER está vacío"
+            exit 1
+          fi
 
-          printf '%s\n' "$TH_KEY" > ~/.ssh/tierhive_key
-          chmod 600 ~/.ssh/tierhive_key
+          if [ -n "$TH_KEY" ]; then
+            echo "✅ TH_KEY está disponible"
+          else
+            echo "❌ TH_KEY está vacío"
+            exit 1
+          fi
 
-          lftp sftp://$TH_USER@us.4.pages.tierhive.com:3523 \
-            -e "
-              set sftp:connect-program 'ssh -a -x -i ~/.ssh/tierhive_key -o StrictHostKeyChecking=no';
-              mirror --reverse --delete public/ page-stellarrounin-com/;
-              quit
-            "
+      - name: Deploy
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: us.4.pages.tierhive.com
+          port: '3523'
+          username: ${{ secrets.TH_USER }}
+          ssh_private_key: ${{ secrets.TH_KEY }}
+          local_path: ./public/*
+          remote_path: /page-stellarrounin-com/
+          sftp_only: true
