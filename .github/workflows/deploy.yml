@@ -24,8 +24,8 @@ jobs:
       - name: Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: node.tierhive.com
-          port: '2222'
+          server: us.4.pages.tierhive.com
+          port: '3523'
           username: ${{ secrets.TH_USER }}
           ssh_private_key: ${{ secrets.TH_KEY }}
           local_path: ./public/*
