@@ -50,5 +50,5 @@ jobs:
           username: ${{ secrets.TH_USER }}
           ssh_private_key: ${{ secrets.TH_KEY }}
           local_path: ./public/*
-          remote_path: /
+          remote_path: /page-stellarrounin-com/
           sftp_only: true
