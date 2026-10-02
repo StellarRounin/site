@@ -51,3 +51,4 @@ jobs:
           ssh_private_key: ${{ secrets.TH_KEY }}
           local_path: ./public/*
           remote_path: /
+          sftp_only: true
