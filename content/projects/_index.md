@@ -6,3 +6,9 @@ weight = 50
 +++
 
 Things I've built, maintained, or experimented with.
+
+## Repositories
+- Main: https://github.com/StellarRounin
+- Secondary (simpler, efficient & minimalist): https://git.stellarrounin.com
+
+=^..^=   =^..^=   =^..^=    =^..^=    =^..^=    =^..^=    =^..^= =^..^=   =^..^=   =^..^=    =^..^=    =^..^=    =^..^=    =^..^=
