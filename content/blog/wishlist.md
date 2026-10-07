@@ -17,7 +17,7 @@ Tambien, es una gran forma de saber mis gustos personales por si *quieres y gust
 
 ## Objetos Fisicos
 
-[Aqui te dejo una lista de mi wishlist de objetos fisicos que quiero comprar](https://chivalrous-licorice-6bf.notion.site/37982c497e8680fd8c32e70c644190e6?v=37982c497e868046a389000ce3e231ea&source=copy_link).
+[Aqui te dejo una lista de mi wishlist de objetos fisicos que quiero comprar](https://www.wishbob.com/jmqsylkhzp).
 
 ### Colecciones
 Aqui algunos medios de entretenimiento que me gustaria poseer: https://media.stellarrounin.com/list/wishlist
